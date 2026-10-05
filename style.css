@@ -1,0 +1,60 @@
+:root {
+ --rosa_bebe: #f5e6e8;
+ --rosa_escuro: #a65a6a;
+ --texto: #2b2024;
+ --link: #713747;
+ --fundo: #181418;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--rosa_bebe);
+    color: var(--texto);
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+}
+
+a:hover {
+    color: var(--link);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    width: 220px;
+    padding: 20px;
+    background-color: var(--rosa_escuro);
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.card-button {
+    display: inline-block;
+    width:100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: var(--rosa_escuro);
+    color: var(--texto);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.card-button:hover {
+    background-color: var(--link);
+    color: var(--rosa_bebe);
+}
